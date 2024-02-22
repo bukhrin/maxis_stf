@@ -1,11 +1,14 @@
 @font-face {
-  font-family: "AauxNext";
-  font-style: normal;
-  font-weight: 700;
-  src: url(../../fonts/AauxNextBlk.otf);
+    font-family: "AauxNext-Bold";
+    src: url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.eot");
+    src: url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.svg#AauxNext-Bold")format("svg");
 }
 
-* {font-family: "AauxNext", Times, serif;}
+* {font-family: "AauxNext-Bold", Times, serif;}
 
 .stf-menu .stf-logo {
   background: url(../../common/logo/exports/STF-512.png) no-repeat 0 0;
