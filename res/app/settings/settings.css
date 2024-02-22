@@ -2,7 +2,26 @@
 * Copyright © 2019 code initially contributed by Orange SA, authors: Denis Barbaron - Licensed under the Apache license 2.0
 **/
 
+@font-face {
+  font-family: "AauxNext";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../fonts/aauxnextltwebfont.otf);
+}
+
+@font-face {
+  font-family: "AauxNextMdWeb";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../fonts/aauxnextmdwebfont.otf);
+}
+
+# {font-family: "AauxNextMdWeb";
+  font-style: bold;
+}
+
 .stf-settings-tabs-device-icon {
-  font-size: 15px;
+  font-size: 30px;
+  vertical-align: middle;
 }
 

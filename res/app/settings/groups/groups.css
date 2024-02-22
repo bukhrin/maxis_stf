@@ -4,6 +4,8 @@
 
 .stf-groups .selectable {
   user-select: text;
+    font-size: 30px;
+    vertical-align: middle;
 }
 
 .stf-pager-groups-total-items {
