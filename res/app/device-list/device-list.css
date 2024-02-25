@@ -1,11 +1,22 @@
-.device-list {
-  color: deepskyblue;
+.nav-tabs {
+  font-size: 14px !important  ;
+  font-weight: bolder !important;
 }
 
 .stf-device-list .filtering-buttons {
   position: absolute;
   top: 10px;
   right: 20px;
+}
+
+.stf-device-list .device-list-active-tabs {
+  font-size: 14px;   
+  color: #115E67;
+}
+
+.stf-device-list .device-list-devices-content {
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .stf-device-list .device-not-usable {
@@ -29,6 +40,10 @@
   width: 100%;
   border-bottom: 1px solid #e2e2e2;
   margin: 0;
+}
+
+.stf-device-list .stf-device-list-tabs {
+  color: black;
 }
 
 .stf-device-list .device-status {

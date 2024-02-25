@@ -4,7 +4,6 @@
 
 .widget-container.fluid-height.stf-groups(ng-controller='GroupsCtrl')
   .heading
-    i.fa.fa-object-group
     span(translate) Group list 
 
     button.btn.btn-xs.btn-primary-outline.pull-right(
@@ -26,7 +25,6 @@
   .widget-content.padded
 
     nothing-to-show(
-      icon='fa-object-group'
       message='{{"No Groups" | translate}}' ng-if='!groups.length')
 
     div(ng-if='groups.length')

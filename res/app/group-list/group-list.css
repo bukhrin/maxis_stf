@@ -2,6 +2,16 @@
 * Copyright © 2019 code initially contributed by Orange SA, authors: Denis Barbaron - Licensed under the Apache license 2.0
 **/
 
+@font-face {
+  font-family: "Maxis Regular";
+  src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot");
+  src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.svg#Maxis Regular")format("svg");
+}
+
 .stf-pager-group-devices-search {
   width: 160px;
 }
@@ -76,10 +86,10 @@
 }
 
 .stf-group-list .group-device-id, .group-user-id {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 10px;
+  font-family: "Maxis Regular";
+  font-size: 14px;
   margin-bottom: 2px;
-  color: #999999;
+  color: #3e4a56;
   font-weight: 300;
 }
 
@@ -90,7 +100,7 @@
 .stf-group-list .user-line, .device-line {
   padding: 9px 15px 9px 2px;
   margin-left: 14px;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid white;
 }
 
 .stf-group-list .mailto {
@@ -122,7 +132,7 @@
 
 .group-stats [class^="col-"] .number,
 .group-stats [class*="col-"] .number {
-  font-size: 3.4em;
+  font-size: 3.1em;
   font-weight: 100;
   line-height: 1.5em;
   letter-spacing: -0.06em;
@@ -131,7 +141,7 @@
 .group-stats [class^="col-"] .number .icon,
 .group-stats [class*="col-"] .number .icon {
   width: 50px;
-  height: 38px;
+  height: 30px;
   display: inline-block;
   vertical-align: top;
   margin: 20px 12px 0 0;
@@ -152,10 +162,11 @@
 .group-quota-stats .text,
 .group-stats [class^="col-"] .text,
 .group-stats [class*="col-"] .text {
-  font-weight: 300;
-  color: #aeaeae;
+  font-weight: bolder;
+  height: 20px;
+  color: #115E67;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .group-stats .fa {

@@ -1,6 +1,22 @@
+@font-face {
+  font-family: "Maxis Regular";
+  src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot");
+  src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.svg#Maxis Regular")format("svg");
+}
+
+* {font-family: "Maxis Regular";}
+
 .stf-device-list .stf-device-details-customize {
   white-space: nowrap;
+  font-family: "Maxis Regular";
+  font-size: 14px;
+  font-weight: bold;
   padding: 10px;
+  color: #74A6A5;
   padding-bottom: 0;
   column-count: 2;
   -moz-column-count: 2;

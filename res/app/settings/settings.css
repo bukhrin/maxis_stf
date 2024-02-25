@@ -3,25 +3,18 @@
 **/
 
 @font-face {
-  font-family: "AauxNext";
-  font-style: normal;
-  font-weight: 700;
-  src: url(../../fonts/aauxnextltwebfont.otf);
-}
-
-@font-face {
-  font-family: "AauxNextMdWeb";
-  font-style: normal;
-  font-weight: 700;
-  src: url(../../fonts/aauxnextmdwebfont.otf);
-}
-
-# {font-family: "AauxNextMdWeb";
-  font-style: bold;
+  font-family: "Maxis Regular";
+  src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot");
+  src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.svg#Maxis Regular")format("svg");
 }
 
 .stf-settings-tabs-device-icon {
-  font-size: 30px;
+  font-family: "Maxis Regular";
+  font-size: 14px;
   vertical-align: middle;
 }
 

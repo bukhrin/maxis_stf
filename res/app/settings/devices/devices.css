@@ -12,6 +12,16 @@
 
 .stf-devices .device-header {
   margin-left: 10px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: red;
+}
+
+.stf-devices .heading {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #74A6A5;
 }
 
 .stf-devices .heading .device-header-icon {
@@ -50,16 +60,14 @@
 }
 
 .stf-devices .device-list-name {
-  color: #007aff;
+  color: #40C706;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: bolder;
   margin: 2px 0 6px;
 }
 
 .stf-devices .device-list-id {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 10px;
+  font-size: 14px;
   margin-bottom: 2px;
-  color: #999999;
-  font-weight: 300;
+  color: black;
 }

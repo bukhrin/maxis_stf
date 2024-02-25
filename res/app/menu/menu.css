@@ -1,17 +1,17 @@
 @font-face {
-    font-family: "AauxNext-Bold";
-    src: url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.eot");
-    src: url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/995dbf648c6dfcb92ea0f686854e13bd.svg#AauxNext-Bold")format("svg");
+  font-family: "Maxis Regular";
+  src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot");
+  src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.svg#Maxis Regular")format("svg");
 }
 
-* {font-family: "AauxNext-Bold", Times, serif;}
+* {font-family: "Maxis Regular";}
 
 .stf-menu .stf-logo {
-  background: url(../../common/logo/exports/STF-512.png) no-repeat 0 0;
+  background: url(../../common/logo/exports/squiggle.png) no-repeat 0 0;
   width: 32px;
   height: 32px;
   float: left;
@@ -22,24 +22,25 @@
 }
 
 .stf-menu .stf-top-bar {
-  font-family: "AauxNext", Times, serif;
-  font-weight: bold;
-  color: #40C706;
-  height: 60px;
+  font-family: "Maxis Regular", Times, serif;
+  font-size: 14px;
+  height: 44px;
+  margin: 0px 14px;
+  color: #74A6A5;
   padding: 0 10px 0 20px;
   width: 100%;
   float: left;
 }
 
 .stf-menu .stf-nav {
-  padding-left: 15px;
+  padding-left: 1px;
   text-align: left;
   margin: 0;
   float: left;
 }
 
 .stf-menu .stf-nav > li {
-  padding-right: 15px;
+  padding-right: 14px;
   float: left;
   display: inline-block;
   text-align: left;
@@ -47,36 +48,49 @@
   margin: 0;
 }
 
+
 .stf-menu .stf-nav > li > a {
   display: inline-block;
   text-align: left;
   padding: 0 !important;
-  padding-right: 18px !important;
+  padding-right: 14px !important;
   padding-left: 14px !important;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 44px;
-  color: #40C706;
-  font-weight: 400;
+  color: #74A6A5;
+  font-weight: bold;
   height: 44px;
   position: relative;
 }
 
-.stf-menu .stf-nav > li > a > span.fa {
+
+/*.stf-menu .stf-nav > li > a > span.fa {
   display: inline-block;
   float: left;
   margin: 8px 8px 0 0;
   font-size: 28px;
 }
+*/
 
-.stf-menu .stf-nav > li > a > span.fa-mobile {
+/*.stf-menu .stf-nav > li > a > span.fa-mobile {
   font-size: 30px;
 }
-
+*/
 .stf-menu .stf-nav > li > a.current {
-  color: #007aff;
+  color: #115E67;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.stf-menu .stf-nav > li > a:hover {
+  text-decoration: underline;
+  color: #115E67;
+  font-weight: bolder;
 }
 
 .stf-menu.navbar {
   height: 44px !important;
   min-height: 44px !important;
+  background-color: #f2f2f2;
+  overflow: clip;
 }

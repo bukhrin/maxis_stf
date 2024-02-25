@@ -2,6 +2,13 @@
 * Copyright © 2019 code initially contributed by Orange SA, authors: Denis Barbaron - Licensed under the Apache license 2.0
 **/
 
+.stf-groups .heading{
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #74A6A5;
+}
+
 .stf-groups .selectable {
   user-select: text;
     font-size: 30px;

@@ -1,3 +1,25 @@
+/**
+* Copyright © 2019 code initially contributed by Orange SA, authors: Denis Barbaron - Licensed under the Apache license 2.0
+**/
+
+@font-face {
+    font-family: "Maxis Regular";
+    src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot");
+    src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.svg#Maxis Regular")format("svg");
+  }
+  
+  body {
+    font-family: "Maxis Regular";
+    font-size: 13px;
+    color: #3e4a56;
+    vertical-align: middle;
+  }
+  
+
 .row {
     margin: 0 5px;
 }

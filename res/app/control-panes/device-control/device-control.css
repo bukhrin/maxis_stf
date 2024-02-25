@@ -232,7 +232,9 @@ device-screen input {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  color: #858585;
+  color: #40c706;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .stf-device-control .device-name-container {

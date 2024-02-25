@@ -8,17 +8,17 @@
     ul.nav.stf-nav(nav-menu='current').unselectable
       li(ng-cloak)
         a(ng-href='/#!/control/{{lastUsedDevice}}', ng-show='lastUsedDevice')
-          span.fa.fa-mobile
-          span(ng-if='!$root.basicMode', translate) Control
+          //span.fa.fa-mobile
+          span(ng-if='!$root.basicMode', translate) control
         a(ng-href='/#!/devices', accesskey='1')
-          span.fa.fa-sitemap
-          span(ng-if='!$root.basicMode', translate) Devices
+          //span.fa.fa-sitemap
+          span(ng-if='!$root.basicMode', translate) device farm
         a(ng-href='/#!/groups')
-          span.fa.fa-object-group
-          span(ng-if='!$root.basicMode', translate) Groups
+          //span.fa.fa-object-group
+          span(ng-if='!$root.basicMode', translate) users & devices groups
         a(ng-href='/#!/settings')
-          span.fa.fa-gears
-          span(ng-if='!$root.basicMode', translate) Settings
+          //span.fa.fa-gears
+          span(ng-if='!$root.basicMode', translate) settings
     ul.nav.stf-nav.stf-feedback.pull-right(ng-cloak, nav-menu='current').unselectable
       li.stf-nav-web-native-button(ng-if='!$root.basicMode && isControlRoute')
         .btn-group
@@ -35,7 +35,8 @@
       li.stf-nav-web-native-button(ng-if='!$root.basicMode')
        button.btn.btn-sm.btn-default-outline(
         type='button'
-        ng-click='logout()')
+        style="color:red;"
+        ng-click='logout()')   
           i.fa.fa-sign-out
           span(translate) Logout 
 

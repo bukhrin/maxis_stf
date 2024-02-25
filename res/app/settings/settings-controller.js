@@ -7,21 +7,21 @@ module.exports = function SettingsCtrl($scope, gettext, AppState) {
   $scope.settingTabs = []
   $scope.settingTabs.push(
     {
-      title: gettext('GENERAL'),
+      title: gettext('General'),
       //icon: 'fa-gears fa-fw',
       templateUrl: 'settings/general/general.pug'
     }
   )
   $scope.settingTabs.push(
     {
-      title: gettext('ACCESS TOKENS & ADB KEYS'),
+      title: gettext('Access Tokens & ADB Keys'),
       //icon: 'fa-key fa-fw',
       templateUrl: 'settings/keys/keys.pug'
     }
   )
   $scope.settingTabs.push(
     {
-      title: gettext('USERS & DEVICES GROUPS'),
+      title: gettext('Users & Devices Groups'),
       //icon: 'fa-object-group fa-fw',
       templateUrl: 'settings/groups/groups.pug'
     }
@@ -29,14 +29,14 @@ module.exports = function SettingsCtrl($scope, gettext, AppState) {
   if (AppState.user.privilege === 'admin') {
     $scope.settingTabs.push(
       {
-        title: gettext('DEVICES'),
+        title: gettext('Devices'),
         //icon: 'fa-mobile stf-settings-tabs-device-icon fa-fw',
         templateUrl: 'settings/devices/devices.pug'
       }
     )
     $scope.settingTabs.push(
       {
-        title: gettext('USERS MANAGEMENT'),
+        title: gettext('Users Management'),
         //icon: 'fa-user fa-fw',
         templateUrl: 'settings/users/users.pug'
       }
