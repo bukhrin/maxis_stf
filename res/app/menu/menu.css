@@ -1,14 +1,19 @@
-@font-face {
+
+@font-face { 
   font-family: "Maxis Regular";
-  src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot");
-  src: url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/c33bfd38ef82dc856280ae6fc9b1b224.svg#Maxis Regular")format("svg");
+  src: url(../../fonts/Maxis-Regular.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face { 
+  font-family: "Maxis Semibold";
+  src: url(../../fonts/Maxis-Semibold.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-* {font-family: "Maxis Regular";}
+* {font-family:"Maxis Regular", Tahoma, sans-serif;
+}
 
 .stf-menu .stf-logo {
   background: url(../../common/logo/exports/squiggle.png) no-repeat 0 0;
@@ -22,8 +27,9 @@
 }
 
 .stf-menu .stf-top-bar {
-  font-family: "Maxis Regular", Times, serif;
+  font-family: "Maxis Regular", Tahoma, sans-serif;
   font-size: 14px;
+  font-weight: bold;
   height: 44px;
   margin: 0px 14px;
   color: #74A6A5;
@@ -77,16 +83,18 @@
 }
 */
 .stf-menu .stf-nav > li > a.current {
+  font-family: "Maxis Semibold", Tahoma, sans-serif !important;
   color: #115E67;
   font-weight: bold;
   font-size: 14px;
 }
 
 .stf-menu .stf-nav > li > a:hover {
+  font-family: "Maxis Semibold", Tahoma, sans-serif !important;
   text-decoration: underline;
+  font-weight: bold;
   color: #115E67;
-  font-weight: bolder;
-}
+ }
 
 .stf-menu.navbar {
   height: 44px !important;
