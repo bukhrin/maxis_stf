@@ -5,7 +5,10 @@
 .login2(ng-controller='SignInCtrl')
   .login-wrapper
     a(href='./')
-      img(width='160', height='160', src='/static/logo/exports/STF-512.png', title='STF')
+      img(width='220', height='65', src='/static/logo/exports/device_farm.png', title='STF')
+      
+    .welcome Welcome to the TQA Device Farm
+
 
     form(name='signin', novalidate, ng-submit='submit()')
       .alert.alert-danger(ng-show='error')
@@ -32,15 +35,9 @@
           span(ng-show='signin.email.$error.email', translate) Please enter a valid email
           span(ng-show='signin.email.$error.required', translate) Please enter your email
 
-      input.btn.btn-lg.btn-primary.btn-block(type='submit', value='Log In')
+      input.btn.btn-lg.btn-primary.btn-block(type='submit', value='LOGIN')
 
-      button.btn.btn-sm.btn-default-outline(
-        type='button'
-        uib-tooltip="{{'Write a mail to the support team' | translate}}"
-        ng-disabled='!contactEmail'
-        ng-click='mailToSupport()'
-        tooltip-placement='top'
-        tooltip-popup-delay='500')
-          i.fa.fa-envelope-o
-          span(translate) Contact Support
+      .support For enquiries: 
+        .email aabangf@maxis.com.my 
+
 
