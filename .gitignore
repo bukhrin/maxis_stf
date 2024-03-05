@@ -9,6 +9,7 @@
 /res/build/
 /res/test_out/
 /rethinkdb_data/
+/node_modules/
 /temp/
 /tmp/
 package-lock.json
